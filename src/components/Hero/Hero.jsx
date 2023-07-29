@@ -35,7 +35,7 @@ export const Hero = () => {
               підготувати себе до першої роботи в IT і досягнути успіху не
               залежно від того де ви знаходитесь
             </Typography>
-            <Button>Розпочнімо</Button>
+            <Button variant="contained">Розпочнімо</Button>
           </Box>
           <Box sx={{ flexGrow: '1' }}>2</Box>
         </Box>
