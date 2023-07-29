@@ -1,13 +1,14 @@
 {
   "files": {
     "main.css": "/ai-career-assistant/static/css/main.20e0fdcb.css",
-    "main.js": "/ai-career-assistant/static/js/main.e4f6392e.js",
-    "static/js/502.a97e97ea.chunk.js": "/ai-career-assistant/static/js/502.a97e97ea.chunk.js",
+    "main.js": "/ai-career-assistant/static/js/main.9ad874fc.js",
+    "static/js/502.ed470c1a.chunk.js": "/ai-career-assistant/static/js/502.ed470c1a.chunk.js",
     "static/js/181.69da869a.chunk.js": "/ai-career-assistant/static/js/181.69da869a.chunk.js",
     "static/js/679.968131e4.chunk.js": "/ai-career-assistant/static/js/679.968131e4.chunk.js",
     "static/js/584.987f20fc.chunk.js": "/ai-career-assistant/static/js/584.987f20fc.chunk.js",
     "static/js/270.3c6367a9.chunk.js": "/ai-career-assistant/static/js/270.3c6367a9.chunk.js",
     "static/js/472.404660f9.chunk.js": "/ai-career-assistant/static/js/472.404660f9.chunk.js",
+    "static/media/ai.png": "/ai-career-assistant/static/media/ai.74e6023ccd3b45444627.png",
     "static/media/roboto-all-500-normal.woff": "/ai-career-assistant/static/media/roboto-all-500-normal.0ab669b7a0d19b178f57.woff",
     "static/media/roboto-all-700-normal.woff": "/ai-career-assistant/static/media/roboto-all-700-normal.a457fde362a540fcadff.woff",
     "static/media/roboto-all-400-normal.woff": "/ai-career-assistant/static/media/roboto-all-400-normal.c5d001fa922fa66a147f.woff",
@@ -42,8 +43,8 @@
     "static/media/roboto-greek-ext-700-normal.woff2": "/ai-career-assistant/static/media/roboto-greek-ext-700-normal.bd9854c751441ccc1a70.woff2",
     "index.html": "/ai-career-assistant/index.html",
     "main.20e0fdcb.css.map": "/ai-career-assistant/static/css/main.20e0fdcb.css.map",
-    "main.e4f6392e.js.map": "/ai-career-assistant/static/js/main.e4f6392e.js.map",
-    "502.a97e97ea.chunk.js.map": "/ai-career-assistant/static/js/502.a97e97ea.chunk.js.map",
+    "main.9ad874fc.js.map": "/ai-career-assistant/static/js/main.9ad874fc.js.map",
+    "502.ed470c1a.chunk.js.map": "/ai-career-assistant/static/js/502.ed470c1a.chunk.js.map",
     "181.69da869a.chunk.js.map": "/ai-career-assistant/static/js/181.69da869a.chunk.js.map",
     "679.968131e4.chunk.js.map": "/ai-career-assistant/static/js/679.968131e4.chunk.js.map",
     "584.987f20fc.chunk.js.map": "/ai-career-assistant/static/js/584.987f20fc.chunk.js.map",
@@ -52,6 +53,6 @@
   },
   "entrypoints": [
     "static/css/main.20e0fdcb.css",
-    "static/js/main.e4f6392e.js"
+    "static/js/main.9ad874fc.js"
   ]
 }
