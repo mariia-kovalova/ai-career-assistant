@@ -17,6 +17,7 @@ const getDesignTokens = mode => ({
       contactItemBGC: mode === LIGHT ? deepOrange[50] : grey[600],
       footerBGC: mode === LIGHT ? deepOrange[100] : grey[800],
       modalBGC: mode === LIGHT ? '#070707' : grey[900],
+      appealBGC: grey,
     },
   },
 });

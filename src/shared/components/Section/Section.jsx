@@ -6,7 +6,7 @@ export const Section = ({ title, children }) => {
   return (
     <Box component="section" sx={styles.section}>
       {title && (
-        <Typography component="h2" variant="h2" sx={styles.title}>
+        <Typography component="h2" variant="h4" sx={styles.title}>
           {title}
         </Typography>
       )}

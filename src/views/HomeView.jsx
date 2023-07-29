@@ -1,6 +1,7 @@
 import { Helmet } from 'react-helmet';
 import { Hero } from 'components/Hero';
 import { Features } from 'components/Featres';
+import { Appeal } from 'components/Appeal';
 
 const HomeView = () => (
   <>
@@ -9,6 +10,7 @@ const HomeView = () => (
     </Helmet>
     <Hero />
     <Features />
+    <Appeal />
   </>
 );
 

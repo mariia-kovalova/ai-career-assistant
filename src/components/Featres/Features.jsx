@@ -11,7 +11,7 @@ import { featuresData } from './featuresData';
 
 export const Features = () => {
   return (
-    <Section>
+    <Section title="Services">
       <Container maxWidth="lg">
         {featuresData.map(({ title, content, ariaControls, id }) => (
           <div key={id}>
