@@ -1,14 +1,16 @@
 import { Box, Button, Container, Typography } from '@mui/material';
+import { Section } from 'shared/components/Section';
 import ai from 'shared/images/ai.png';
 
 export const Hero = () => {
   return (
-    <div>
-      <Container>
+    <Section>
+      <Container maxWidth="xl">
         <Box
           sx={{
             display: 'flex',
             gap: '30px',
+            justifyContent: 'center',
             paddingTop: '10vh',
             paddingBottom: '20vh',
             minHeight: '90vh',
@@ -17,11 +19,7 @@ export const Hero = () => {
           <Box
             sx={{
               flexBasis: '500px',
-              display: 'flex',
-              flexDirection: 'column',
-              gap: '20px',
-              alignItems: 'center',
-              paddingTop: '14vh',
+              paddingTop: '10vh',
             }}
           >
             <Typography
@@ -29,25 +27,31 @@ export const Hero = () => {
               component="h1"
               sx={{
                 fontWeight: '600',
+                marginBottom: '20px',
               }}
             >
-              Платформа для покращення Ваших скілів та допомоги при першій
-              співбесіді
+              Unlock Your Full Potential and Thrive in Your Career Journey
             </Typography>
-            <Typography variant="h6" component="p" sx={{ fontSize: '16px' }}>
-              Ласкаво просимо до Вашої платформи за допомогою якої Ви зможете
-              підготувати себе до першої роботи в IT і досягнути успіху не
-              залежно від того де ви знаходитесь
+            <Typography
+              variant="h6"
+              component="p"
+              sx={{ fontSize: '16px', marginBottom: '40px' }}
+            >
+              Welcome to Career Assistant, your personal companion on the path
+              to success. Discover your true potential, improve your skills, and
+              build valuable global connections with our innovative platform.
+              Let Career Assistant be your guiding light as you embark on a
+              fulfilling and prosperous career journey.
             </Typography>
-            <Button variant="contained">Розпочнімо</Button>
+            <Button variant="contained" sx={{ padding: '8px 50px' }}>
+              Get started
+            </Button>
           </Box>
-          <Box sx={{ flexGrow: '1' }}>
-            <Box sx={{ maxWidth: '320px', paddingTop: '100px' }}>
-              <img src={ai} alt="ai-robot" />
-            </Box>
+          <Box sx={{ flexBasis: '800px' }}>
+            <img src={ai} alt="ai-robot" height="500" />
           </Box>
         </Box>
       </Container>
-    </div>
+    </Section>
   );
 };

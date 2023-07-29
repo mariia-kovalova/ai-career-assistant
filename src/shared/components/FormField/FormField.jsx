@@ -1,5 +1,5 @@
 import PropTypes from 'prop-types';
-import { capitalize } from 'utils/capitalize';
+import { capitalize } from 'shared/utils/capitalize';
 import {
   FormControl,
   FormHelperText,

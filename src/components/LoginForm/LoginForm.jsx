@@ -5,7 +5,7 @@ import { logIn } from 'redux/auth/operations';
 import { useForm } from 'react-hook-form';
 import { yupResolver } from '@hookform/resolvers/yup';
 import { Schema } from './consts/inputValidation';
-import { getDefaultValues } from 'utils/getDefaultValues';
+import { getDefaultValues } from 'shared/utils/getDefaultValues';
 
 import { Box, Button, Typography } from '@mui/material';
 import { FormField } from 'shared/components/FormField';

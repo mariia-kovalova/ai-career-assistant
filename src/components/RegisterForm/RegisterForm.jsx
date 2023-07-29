@@ -5,7 +5,7 @@ import { registration } from 'redux/auth/operations';
 import { useForm } from 'react-hook-form';
 import { yupResolver } from '@hookform/resolvers/yup';
 import { SignupSchema } from './consts/inputValidation';
-import { getDefaultValues } from 'utils/getDefaultValues';
+import { getDefaultValues } from 'shared/utils/getDefaultValues';
 
 import { Box } from '@mui/system';
 import { FormField } from 'shared/components/FormField';

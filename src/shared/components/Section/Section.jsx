@@ -1,18 +1,16 @@
-import { Box, Container, Typography } from '@mui/material';
+import { Box, Typography } from '@mui/material';
 import PropTypes from 'prop-types';
 import { styles } from './SectionStyles';
 
 export const Section = ({ title, children }) => {
   return (
     <Box component="section" sx={styles.section}>
-      <Container>
-        {title && (
-          <Typography component="h2" variant="h2" sx={styles.title}>
-            {title}
-          </Typography>
-        )}
-        {children}
-      </Container>
+      {title && (
+        <Typography component="h2" variant="h2" sx={styles.title}>
+          {title}
+        </Typography>
+      )}
+      {children}
     </Box>
   );
 };

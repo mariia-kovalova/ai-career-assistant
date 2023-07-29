@@ -2,16 +2,16 @@ import { Box, Container, Link, Tooltip, Typography } from '@mui/material';
 import IntegrationInstructionsIcon from '@mui/icons-material/IntegrationInstructions';
 import { styles } from './FooterStyles';
 import { Logo } from 'shared/components/Logo';
-import { Navigation } from 'components/Navigation';
+import { Navigation } from 'shared/components/Navigation';
 import { footerNavLinks } from 'shared/consts/navLinks';
 
 export const Footer = () => (
   <Box component="footer" sx={styles.footer}>
-    <Container>
+    <Container maxWidth="xl">
       <Box sx={styles.footerContentWrap}>
         <Logo />
         <Navigation navLinks={footerNavLinks} />
-        <Tooltip title="розроблено командою 'Кодові маги' ">
+        <Tooltip title="developed by 'Кодові маги' ">
           <Link
             href="https://github.com/mariia-kovalova/ai-career-assistant"
             target="_blank"

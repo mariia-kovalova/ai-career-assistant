@@ -5,7 +5,7 @@ import { useDispatch, useSelector } from 'react-redux';
 import { selectTheme } from 'redux/theme/selectors';
 
 import { Logo } from 'shared/components/Logo';
-import { Navigation } from 'components/Navigation';
+import { Navigation } from 'shared/components/Navigation';
 import { UserMenu } from 'components/UserMenu';
 import { MobileMenu } from 'components/MobileMenu';
 
@@ -35,7 +35,7 @@ export const Header = () => {
 
   return (
     <AppBar position="relative">
-      <Container>
+      <Container maxWidth="xl">
         <Box sx={styles.headerContentWrap}>
           <Box sx={styles.menuIconBtnWrap}>
             <IconButton

@@ -10,27 +10,27 @@ export const headerNavLinks = isLoggedIn => {
   return [
     {
       path: ASSISTANT_ROUTE,
-      page: 'Асистент',
+      page: 'Assistant',
       render: true,
     },
     {
       path: SERVICES_ROUTE,
-      page: 'Сервіси',
+      page: 'Services',
       render: true,
     },
     {
       path: ABOUT_ROUTE,
-      page: 'Про нас',
+      page: 'About us',
       render: true,
     },
     {
       path: REGISTER_ROUTE,
-      page: 'Зареєструватися',
+      page: 'Register',
       render: !isLoggedIn,
     },
     {
       path: LOGIN_ROUTE,
-      page: 'Увійти',
+      page: 'Log in',
       render: !isLoggedIn,
     },
   ];
@@ -40,17 +40,17 @@ export const footerNavLinks = isLoggedIn => {
   return [
     {
       path: ASSISTANT_ROUTE,
-      page: 'Асистент',
+      page: 'Assistant',
       render: true,
     },
     {
       path: SERVICES_ROUTE,
-      page: 'Сервіси',
+      page: 'Services',
       render: true,
     },
     {
       path: ABOUT_ROUTE,
-      page: 'Про нас',
+      page: 'About us',
       render: true,
     },
   ];
