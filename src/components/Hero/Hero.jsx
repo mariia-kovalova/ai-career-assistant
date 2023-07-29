@@ -1,16 +1,25 @@
 import { Box, Button, Container, Typography } from '@mui/material';
+import ai from 'shared/images/ai.png';
 
 export const Hero = () => {
   return (
     <div>
       <Container>
-        <Box sx={{ display: 'flex', gap: '30px', py: 3 }}>
+        <Box
+          sx={{
+            display: 'flex',
+            gap: '30px',
+            paddingTop: '20vh',
+            paddingBottom: '20vh',
+            minHeight: '90vh',
+          }}
+        >
           <Box
             sx={{
               flexGrow: '1',
               display: 'flex',
               flexDirection: 'column',
-              gap: '5px',
+              gap: '20px',
               alignItems: 'center',
             }}
           >
@@ -37,7 +46,13 @@ export const Hero = () => {
             </Typography>
             <Button variant="contained">Розпочнімо</Button>
           </Box>
-          <Box sx={{ flexGrow: '1' }}>2</Box>
+          <Box sx={{ flexGrow: '1' }}>
+            <Box
+              sx={{ maxWidth: '320px', paddingTop: '100px', margin: '0 auto' }}
+            >
+              <img src={ai} alt="ai-robot" width="320" />
+            </Box>
+          </Box>
         </Box>
       </Container>
     </div>
