@@ -3,19 +3,19 @@ import { useDispatch, useSelector } from 'react-redux';
 import { selectTheme } from 'redux/theme/selectors';
 
 import { CssBaseline, ThemeProvider, createTheme } from '@mui/material';
-import { blue, grey, pink } from '@mui/material/colors';
+import { deepOrange, grey, pink } from '@mui/material/colors';
 import { refreshTheme } from 'redux/theme/operations';
 import { LIGHT } from 'shared/consts/theme';
 
 const getDesignTokens = mode => ({
   palette: {
     mode,
-    primary: blue,
-    secondary: blue,
+    primary: deepOrange,
+    secondary: deepOrange,
     extra: {
       pink: pink,
-      contactItemBGC: mode === LIGHT ? blue[50] : grey[600],
-      footerBGC: mode === LIGHT ? blue[100] : grey[800],
+      contactItemBGC: mode === LIGHT ? deepOrange[50] : grey[600],
+      footerBGC: mode === LIGHT ? deepOrange[100] : grey[800],
       modalBGC: mode === LIGHT ? '#070707' : grey[900],
     },
   },

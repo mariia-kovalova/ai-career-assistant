@@ -9,37 +9,32 @@ export const Hero = () => {
           sx={{
             display: 'flex',
             gap: '30px',
-            paddingTop: '20vh',
+            paddingTop: '10vh',
             paddingBottom: '20vh',
             minHeight: '90vh',
           }}
         >
           <Box
             sx={{
-              flexGrow: '1',
+              flexBasis: '500px',
               display: 'flex',
               flexDirection: 'column',
               gap: '20px',
               alignItems: 'center',
+              paddingTop: '14vh',
             }}
           >
             <Typography
-              variant="h5"
+              variant="h4"
               component="h1"
               sx={{
-                maxWidth: '280px',
-                textAlign: 'center',
                 fontWeight: '600',
               }}
             >
               Платформа для покращення Ваших скілів та допомоги при першій
               співбесіді
             </Typography>
-            <Typography
-              variant="h6"
-              component="p"
-              sx={{ maxWidth: '400px', textAlign: 'center', fontSize: '16px' }}
-            >
+            <Typography variant="h6" component="p" sx={{ fontSize: '16px' }}>
               Ласкаво просимо до Вашої платформи за допомогою якої Ви зможете
               підготувати себе до першої роботи в IT і досягнути успіху не
               залежно від того де ви знаходитесь
@@ -47,10 +42,8 @@ export const Hero = () => {
             <Button variant="contained">Розпочнімо</Button>
           </Box>
           <Box sx={{ flexGrow: '1' }}>
-            <Box
-              sx={{ maxWidth: '320px', paddingTop: '100px', margin: '0 auto' }}
-            >
-              <img src={ai} alt="ai-robot" width="320" />
+            <Box sx={{ maxWidth: '320px', paddingTop: '100px' }}>
+              <img src={ai} alt="ai-robot" />
             </Box>
           </Box>
         </Box>
