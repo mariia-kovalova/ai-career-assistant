@@ -1,7 +1,7 @@
 import { Helmet } from 'react-helmet';
 import { withAuthRedirect } from 'hoc/withAuthRedirect';
 import { LOGIN_ROUTE } from 'shared/consts/routes';
-import { Section } from 'shared/components/Section';
+import { ChatComponent } from '../components/AiChat';
 
 const AssistantView = () => {
   return (
@@ -9,9 +9,7 @@ const AssistantView = () => {
       <Helmet>
         <title>Assistant</title>
       </Helmet>
-      <Section>
-        <p>Assistant Page</p>
-      </Section>
+      <ChatComponent></ChatComponent>
     </>
   );
 };
