@@ -18,6 +18,7 @@ import { styles } from './HeaderStyles';
 import { toggleTheme } from 'redux/theme/operations';
 import { DARK, LIGHT } from 'shared/consts/theme';
 import { headerNavLinks } from 'shared/consts/navLinks';
+import { StyledRouterNavLink } from 'shared/components/StyledRouterNavLink';
 
 export const Header = () => {
   const [mobileOpen, setMobileOpen] = useState(false);
@@ -51,7 +52,10 @@ export const Header = () => {
           {mobileOpen && <MobileMenu onMenuClose={handleToggleDrawer} />}
           <Logo />
           <Box sx={styles.navbarWrap}>
-            <Navigation navLinks={headerNavLinks} />
+            <Navigation
+              navLinks={headerNavLinks}
+              componentLink={StyledRouterNavLink}
+            />
             <Box sx={styles.modeIconBtnWrap}>
               <Tooltip
                 title={`switch to ${mode === LIGHT ? DARK : LIGHT} mode`}

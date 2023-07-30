@@ -4,13 +4,17 @@ import { styles } from './FooterStyles';
 import { Logo } from 'shared/components/Logo';
 import { Navigation } from 'shared/components/Navigation';
 import { footerNavLinks } from 'shared/consts/navLinks';
+import { StyledRouterLink } from 'shared/components/StyledRouterLink';
 
 export const Footer = () => (
   <Box component="footer" sx={styles.footer}>
     <Container maxWidth="xl">
       <Box sx={styles.footerContentWrap}>
         <Logo />
-        <Navigation navLinks={footerNavLinks} />
+        <Navigation
+          navLinks={footerNavLinks}
+          componentLink={StyledRouterLink}
+        />
         <Tooltip title="developed by 'Кодові маги' ">
           <Link
             href="https://github.com/mariia-kovalova/ai-career-assistant"

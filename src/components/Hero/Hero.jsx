@@ -2,6 +2,7 @@ import { Box, Button, Container, Typography } from '@mui/material';
 import { Section } from 'shared/components/Section';
 import ai from 'shared/images/ai.png';
 import { styles } from './HeroStyles';
+import { Img } from './Hero.styled';
 
 export const Hero = () => {
   return (
@@ -24,7 +25,7 @@ export const Hero = () => {
             </Button>
           </Box>
           <Box sx={styles.imgWrap}>
-            <img src={ai} alt="ai-robot" height="500" />
+            <Img src={ai} alt="ai-robot" height="500" />
           </Box>
         </Box>
       </Container>

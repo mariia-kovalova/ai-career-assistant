@@ -3,7 +3,7 @@ export const styles = {
     bgcolor: 'extra.footerBGC',
     marginBottom: '40px',
     borderRadius: '10px',
-    padding: '40px 0',
+    padding: '40px 20px',
   },
   btn: {
     padding: '8px 50px',
