@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/ai-career-assistant/static/css/main.20e0fdcb.css",
-    "main.js": "/ai-career-assistant/static/js/main.08891629.js",
-    "static/js/193.c69b8912.chunk.js": "/ai-career-assistant/static/js/193.c69b8912.chunk.js",
+    "main.js": "/ai-career-assistant/static/js/main.a3afc779.js",
+    "static/js/193.89527765.chunk.js": "/ai-career-assistant/static/js/193.89527765.chunk.js",
     "static/js/181.47ab25a8.chunk.js": "/ai-career-assistant/static/js/181.47ab25a8.chunk.js",
     "static/js/679.20cc3ba2.chunk.js": "/ai-career-assistant/static/js/679.20cc3ba2.chunk.js",
     "static/js/584.4ae3d027.chunk.js": "/ai-career-assistant/static/js/584.4ae3d027.chunk.js",
@@ -44,8 +44,8 @@
     "static/media/roboto-greek-ext-700-normal.woff2": "/ai-career-assistant/static/media/roboto-greek-ext-700-normal.bd9854c751441ccc1a70.woff2",
     "index.html": "/ai-career-assistant/index.html",
     "main.20e0fdcb.css.map": "/ai-career-assistant/static/css/main.20e0fdcb.css.map",
-    "main.08891629.js.map": "/ai-career-assistant/static/js/main.08891629.js.map",
-    "193.c69b8912.chunk.js.map": "/ai-career-assistant/static/js/193.c69b8912.chunk.js.map",
+    "main.a3afc779.js.map": "/ai-career-assistant/static/js/main.a3afc779.js.map",
+    "193.89527765.chunk.js.map": "/ai-career-assistant/static/js/193.89527765.chunk.js.map",
     "181.47ab25a8.chunk.js.map": "/ai-career-assistant/static/js/181.47ab25a8.chunk.js.map",
     "679.20cc3ba2.chunk.js.map": "/ai-career-assistant/static/js/679.20cc3ba2.chunk.js.map",
     "584.4ae3d027.chunk.js.map": "/ai-career-assistant/static/js/584.4ae3d027.chunk.js.map",
@@ -55,6 +55,6 @@
   },
   "entrypoints": [
     "static/css/main.20e0fdcb.css",
-    "static/js/main.08891629.js"
+    "static/js/main.a3afc779.js"
   ]
 }
