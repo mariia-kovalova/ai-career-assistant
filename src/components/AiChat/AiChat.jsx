@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import { useRef, useState } from 'react';
 import bot from 'shared/images/bot.svg';
 import user from 'shared/images/user.svg';
 import send from 'shared/images/send.svg';
@@ -7,7 +7,7 @@ import './AiChatStyles.css';
 
 export const ChatComponent = () => {
   const [messages, setMessages] = useState([]);
-  const chatInputRef = React.useRef(null);
+  const chatInputRef = useRef(null);
   const [loading, setLoading] = useState(false);
 
   function handleSubmit(e) {
@@ -26,7 +26,7 @@ export const ChatComponent = () => {
     setLoading(true);
 
     // Fetch data from server
-    fetch('http://localhost:5000', {
+    fetch('https://ai-assistant-backend.onrender.com', {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json',
@@ -40,7 +40,7 @@ export const ChatComponent = () => {
         return response.json();
       })
       .then(data => {
-        const parsedData = data.bot.trim();
+        const parsedData = data?.bot.trim();
         setMessages(prevMessages => [
           ...prevMessages,
           { isAi: true, value: parsedData },
