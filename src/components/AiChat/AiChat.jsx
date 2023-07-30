@@ -83,7 +83,7 @@ export const ChatComponent = () => {
         )}
       </div>
 
-      <form onSubmit={handleSubmit}>
+      <form className="chat-form" onSubmit={handleSubmit}>
         <input
           type="text"
           name="prompt"
