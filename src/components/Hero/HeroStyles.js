@@ -26,6 +26,7 @@ export const styles = {
     display: 'block',
     padding: '8px 50px',
     margin: { xs: '0 auto', md: '0' },
+    maxWidth: '200px',
   },
   imgWrap: {
     flexBasis: { xs: '200px', sm: '300px', md: '500px', lg: '800px' },

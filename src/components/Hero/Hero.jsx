@@ -3,6 +3,8 @@ import { Section } from 'shared/components/Section';
 import ai from 'shared/images/ai.png';
 import { styles } from './HeroStyles';
 import { Img } from './Hero.styled';
+import { Link } from 'react-router-dom';
+import { LOGIN_ROUTE } from 'shared/consts/routes';
 
 export const Hero = () => {
   return (
@@ -20,7 +22,12 @@ export const Hero = () => {
               Let Career Assistant be your guiding light as you embark on a
               fulfilling and prosperous career journey.
             </Typography>
-            <Button variant="contained" sx={styles.btn}>
+            <Button
+              component={Link}
+              to={LOGIN_ROUTE}
+              variant="contained"
+              sx={styles.btn}
+            >
               Get started
             </Button>
           </Box>
