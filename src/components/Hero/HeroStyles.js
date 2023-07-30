@@ -30,7 +30,7 @@ export const styles = {
   imgWrap: {
     flexBasis: { xs: '200px', sm: '300px', md: '500px', lg: '800px' },
     height: { xs: '200px', sm: '300px', lg: '500px' },
-    margin: { xs: '0 auto' },
+    margin: { xs: '0 auto', md: '0' },
     marginTop: { xs: '20px', md: '100px', lg: '0' },
   },
 };
